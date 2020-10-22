@@ -96,7 +96,7 @@ public class testGrid : MonoBehaviour
                 CellGrid.GetValue(x, y).update_alive_status();
             }
         }
-
+        //Uncomment this if you want the step-by-step simulation pressing R to pass a step.
         //Time.timeScale = 0f;
     }
 
@@ -105,6 +105,7 @@ public class testGrid : MonoBehaviour
         int count = count_alive_neighbors(x, y);
         CellGrid.GetValue(x, y).update_Alive_neighbors(count);  
     }
+    
     public int count_alive_neighbors(int x, int y)
     {
         List<cell> neighbors = CellGrid.list_neighbors(x, y);

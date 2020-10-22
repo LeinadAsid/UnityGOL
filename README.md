@@ -1,6 +1,7 @@
 # UnityGOL
-John's canway game of life recreated in Unity.
-Click with the mouse to make cells alive or to kill them.
+John's canway game of life recreated in Unity. <br>
+Click with the mouse to make cells alive or to kill them. <br>
+Press Gizmos on the Editor to make the grid visible <br>
 Press R to start simulation.
 
 Hi, this is a little john's canway game of life simulator in unity that I made to learn how to use a grid.
